@@ -1,0 +1,52 @@
+name: climate_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI y Estado
+  provider: ^6.0.0
+  
+  # Bluetooth
+  flutter_blue_plus: ^1.35.5
+  
+  # Iconos y Estilos
+  cupertino_icons: ^1.0.8
+  
+  # Networking
+  http: ^1.2.1
+  
+  # Variables de entorno
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.9
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - .env
+    - assets/icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon.png"
+  min_sdk_android: 21
+
+flutter_native_splash:
+  color: "#1565C0"
+  image: "assets/icon.png"
+  android: true
+  ios: false

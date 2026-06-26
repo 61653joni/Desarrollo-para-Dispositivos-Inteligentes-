@@ -1,0 +1,12 @@
+.env 
+.env.local 
+*.env 
+build/ 
+.dart_tool/ 
+.pub-cache/ 
+*.iml 
+.idea/ 
+.vscode/ 
+.DS_Store 
+Thumbs.db 
+*.log 
