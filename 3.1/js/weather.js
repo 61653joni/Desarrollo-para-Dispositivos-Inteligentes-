@@ -10,7 +10,7 @@
 const API_KEY = window.ENV_API_KEY || 'TU_API_KEY_AQUI';
 const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
-const CITIES = ['Queretaro', 'Ciudad de Mexico', 'Guadalajara', 'Monterrey'];
+const CITIES = ['Queretaro', 'Ciudad de Mexico', 'Tapachula', 'Monterrey'];
 
 // Mapeo condicion -> archivo de video
 const VIDEO_MAP = {
